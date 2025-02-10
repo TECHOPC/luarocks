@@ -11,7 +11,9 @@
 #      sudo ./lua_luarocks.sh	         		
 #							                                    
 #########################################################################
+
 cd home
+apt install liblua5.3-dev -y
 sudo apt install zip -y
 sudo apt install unzip -y
 sudo apt install wls -y
